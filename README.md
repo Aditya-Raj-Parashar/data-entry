@@ -42,8 +42,7 @@ Before running the script, update the following variables in `database_updater.p
 server = 'localhost'  # Your SQL Server instance
 database = 'your_database_name'  # Database name
 table_name = 'dbo.your_table_name'  # Table name
-csv_file_path = 'path/to/your/file.csv'  # CSV file path
-```
+csv_file_path = 'path/to/your/file.csv'  # CSV file path or for testing you can use the given csv files in the repository data entry\Bank+Customer+Churn
 
 ## Usage
 

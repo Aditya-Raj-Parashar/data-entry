@@ -20,7 +20,8 @@ import pyodbc
 server = 'localhost'  # your server name e.g., 'localhost' or 'server_name\instance_name'
 database = 'database_name'  # Name of the database you want to create or enter the data
 table_name = 'dbo.table_name'  # Name of the table where data will be inserted
-csv_file_path = 'C:/Users/xyz.csv'  # Path to your CSV file
+csv_file_path = 'C:/Users/xyz.csv'  # CSV file path or for testing you can use the given csv files in the repository data entry\Bank+Customer+Churn
+
 
 # Create connection string for Windows Authentication
 connection_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes;"
