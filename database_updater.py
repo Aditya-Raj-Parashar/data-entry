@@ -55,7 +55,7 @@ try:
     cursor.execute(create_table_query)
     conn.commit()
 
-    
+    # Insert data into the table
     for index, row in df.iterrows():
         insert_query = f"INSERT INTO {table_name} ({', '.join(df.columns)}) VALUES ({', '.join(['?' for _ in row])})"
         cursor.execute(insert_query, tuple(row))
