@@ -22,7 +22,7 @@ This Python script updates a Microsoft SQL Server database by creating the datab
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Aditya-Raj-Parashar/CSV_to_DBO-DATABASE-_Converter.git
+   git clone https://github.com/Aditya-Raj-Parashar/data-entry.git
    cd database-updater
    ```
 
@@ -122,13 +122,3 @@ If you encounter issues:
 
 This project is open scourced
 
-
-
-git remote add origin https://github.com/Aditya-Raj-Parashar/CSV_to_DBO-DATABASE-_Converter.git
-git branch -M main
-git push -u origin main
-
-
-
-
-"# CSV_to_DBO-DATABASE-_Converter" 
